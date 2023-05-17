@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/contato.css">
+    <title>Contato</title>
+</head>
+<body>
+
+    <header>
+        <nav class="nav">
+            <ul class="lista_nav">
+                <li><a href="../home.html">Home</a></li>
+                <li><a href="./projetos.html">Projetos</a></li>
+                <li><a href="./contato.html">Contatos</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+
+        <section class="dados">
+
+            <img class="foto" src="../imgs/fotoPerfil.jpeg" alt="foto-usuario">
+            <h1 class="nome">Kaique Roberto Alves de Barros</h1>
+            <h2 class="cargo">Desenvolvedor Front-End e Back-End</h2>
+
+        </section>
+    
+       <main>
+
+            <h2>Contatos</h2>
+
+            <section class="contatos">
+                <form action="https://formsubmit.co/kaique_dev@outlook.com" method="POST">
+                    <input type="text" name="nome" placeholder="Seu nome..." required>
+                    <input type="email" name="email" placeholder="Digite seu email..." required>
+                    <input type="text" name="mensagem" placeholder="Digite sua mensagem ..." required>
+                    <input type="hidden" name="_next" value="http://127.0.0.1:5500/html/pagina_agradecimento.html">
+                    <button type="submit" class="btn_enviar">Enviar Mensagem</button>
+               </form>
+            </section>
+
+       </main>
+
+       <footer>
+        <ul class="social">
+            <li>
+                <a href="https://github.com/KIQxl"><img class="img-social" src="../imgs/img-git.png" alt="git"></a>
+            </li>
+            <li>
+                <a href="https://www.linkedin.com/in/kaique-alves-38058a19b/"><img class="img-social" src="../imgs/linkedin.png" alt="linkedin"></a>
+            </li>
+        </ul>
+    </footer>
+    
+</body>
+</html>
