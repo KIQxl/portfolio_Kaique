@@ -126,6 +126,10 @@ footer{
     }
 
     .lista_nav{
-        margin: 0 auto;
+        margin: auto;
+    }
+
+    .lista_nav span{
+        display: none;
     }
 }
