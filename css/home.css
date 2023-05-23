@@ -9,9 +9,11 @@
 
 h3{
     margin-bottom: 10px;
-    color: #cf3;
+    color: var(--nav-color);
+    font-family: var(--fonte);
 }
 
 p{
     font-size: 15px;
+    font-family: var(--fonte);
 }

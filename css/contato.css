@@ -20,12 +20,13 @@ h2{
 .btn_enviar{
     color: black;
     padding: 7px;
-    margin-top: 5px;
+    margin-top: 20px;
     background-color: white;
     border-radius: 5px;
 }
 
 .btn_enviar:hover{
+    transition: 0.3s;
     cursor: pointer;
     background-color: grey;
 }
