@@ -22,7 +22,7 @@
 .lista_nav{
     display: flex;
     list-style: none;
-    margin-left: 150px;
+    margin-left: 10%;
 }
 
 .lista_nav li{
